@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: #000 solid 1px;
+}
+
+.root{
+
+    --cinza: #455A64;
+    --cinzaescuro: #333D42;
+    --verde:  #0DE00D; 
+    --preto: #000;
+    --branco: #fff;
+}
+
+
+strong{
+
+    font-family: 'Poppins' ;
+    font-style: #fff;
+
+}
+
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 8px;
+    margin-left: 65px;
+    color: #333D42;
+}
+
+.texto-grande {
+    text-align: left;
+    font-size: x-large;
+    color: #333D42;
+    align-items: center; 
+    margin-left: 65px;
+}
+
+strong {
+    color: #fff;
+}
+
+.img-folha {
+    height: 15em; 
+    width: auto;
+    margin-left: auto; 
+    margin-right: 80px;
+    border-radius: 50%; /* Faz com que a borda fique circular */
+    border: 2px solid #333D42;
+}
+
+.white-text {
+    color: #fff;
+}
+
+body{ 
+    background-color: #FFC107;
+    height: 100vh;
+    
+}
+
+header{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 5rem;
+flex-wrap: wrap;
+/* padding-left: 0; */
+padding: .8rem;
+background-color:#333D42;
+min-height: 50px;
+
+}
+
+.box-img-header{
+
+    height: 100% ;
+    padding-left: 100px;
+    left: 5em;
+    display: flex;
+    padding: 0;
+}
+
+.logo_simbolo{
+
+    max-width: 120px;
+    height: 100%;
+    
+    
+    border-radius: 50%; 
+    border: 2px solid #FFC107;
+
+}
+nav{
+
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-links{
+
+    text-decoration:none ;
+    color: #FFC107;
+
+}
+
+.nav-links:hover{
+
+    color: #fff;;
+    transition: .4s;
+    text-decoration: underline;
+    
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+section{
+    padding: 4rem;
+    
+}
+
+.first-section {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding:  55px; 
+    width: 100%;
+}
+
+.second-section {
+    background-color: #333D42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse; 
+    padding:  40px;
+}
+
+.imagem-esquerda {
+    max-width: 550px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.texto-pequeno {
+    font-size: medium;
+    max-width: 500px;
+    color: #fff; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.bloco-amarelo {
+     
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px; 
+    margin-bottom: 0px; 
+}
+footer{
+    /* background-color: #333D42; */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
