@@ -1,0 +1,13 @@
+{
+  "name": "seu-projeto-node-ejs",
+  "version": "1.0.0",
+  "description": "Projeto convertido para Node.js com EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.8"
+  }
+}
