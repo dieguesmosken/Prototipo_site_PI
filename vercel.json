@@ -1,8 +1,8 @@
 
 {
-  "name": "my-project",
+  "name": "site-green-leaf",
   "version": 2,
-  "alias": "my-project",
+  "alias": "site-green-leaf",
   "builds": [
     {
       "src": "api/**/*.js",
