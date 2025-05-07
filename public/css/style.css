@@ -1,0 +1,108 @@
+body {
+    background-color: var(--cor_principal) !important;
+}
+
+strong {
+    color: var(--cor_terciaria);
+    font-family: var(--fonte_primaria);
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 4px;
+    color: var(--cor_secundaria);
+    font-family: var(--fonte_primaria);
+}
+
+.texto-grande {
+    text-align: left;
+    font-size: 1.3rem;
+    color: var(--cor_secundaria);
+    font-family: var(--fonte4);
+    margin-bottom: 1rem;
+}
+
+.img-folha {
+    height: 10em;
+    width: auto;
+    margin-left: auto;
+    margin-right: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--cor_secundaria);
+}
+
+.white-text {
+    color: var(--cor_terciaria);
+}
+
+.first-section {
+  /* background: linear-gradient(195deg, var(--cor_principal), var(--cor_secundaria)); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4rem 1rem 4rem 1rem; /* aumenta o espaço vertical */
+    margin-top: 2rem;
+    /* width: 100%; */
+    /* gap: 20rem; */
+    height: 22vh;
+}
+
+.second-section {
+    background-color: var(--cor_secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 4rem 1rem 4rem 1rem; /* aumenta o espaço vertical */
+    margin-top: 2rem;
+    width: 100%;
+    height: 70vh;
+    gap: 2rem;
+}
+
+.second-section img {
+    height: 30em;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--cor_principal);
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .first-section, .second-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  .img-folha {
+    height: 7em;
+    margin-right: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .first-section, .second-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0.5rem 0.2rem;
+  }
+  .img-folha {
+    height: 4em;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+footer.bloco-amarelo {
+    padding: 0.5rem 0.5rem !important; /* diminui o espaço do footer */
+}

@@ -1,0 +1,70 @@
+:root {
+  --cinza: #455a64;
+  --cinzaescuro: #333d42;
+  --verde: #066d06;
+  --preto: #000;
+  --branco: #fff;
+  --amarelo: #ffc107;
+  --cor_principal: var(--amarelo);
+  --cor_secundaria: #1a1a1a;
+  --cor_terciaria: var(--verde);
+  --fonte_primaria: "Krona One", sans-serif;
+  --fonte_secundaria: "Poppins", sans-serif;
+  --fonte_terciaria: "Montserrat", sans-serif;
+}
+
+.texto {
+  color: var(--amarelo);
+}
+
+body {
+  font-family: var(--fonte_secundaria);
+  background-color: var(--cor_principal);
+}
+.header-yellow {
+  padding: 50px 20px;
+  color: #000;
+  text-align: center;
+}
+.header-yellow p {
+  max-width: 700px;
+  margin: 20px auto 0;
+}
+.team-section {
+  background-color: #111;
+  color: white;
+  padding: 60px 20px;
+  height: 50vh;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.team-member .foto img {
+  width: 120px;
+  height: 120px;
+  background-color: #ccc;
+  border-radius: 50%;
+  line-height: 120px;
+  margin: 0 auto 15px;
+  font-weight: bold;
+  color: #333;
+  /* animation: girar 2s infinite; */
+}
+
+.leo {
+  /* rotaciona a imagem em 90 graus */
+  transform: rotate(-90deg);
+  /* deixa a imagem girando */
+  
+
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

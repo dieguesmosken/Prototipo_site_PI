@@ -1,0 +1,73 @@
+body {
+    font-family: var(--fonte_secundaria);
+    margin: 0;
+    padding: 0;
+   
+    color: #fff;
+    /* Removido display, justify-content e align-items do body para não afetar outras páginas */
+  }
+  
+  .login-container {
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: #333;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cor_secundaria);
+  }
+  
+  .login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-box button {
+    width: 95.5%;
+    padding: 10px;
+    background: var(--cor_principal);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor_secundaria);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-box button:hover {
+    background: #388e3c;
+  }
+  
+  .login-message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e53935;
+  }
+  
+  .register-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .register-text a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-text a:hover {
+    text-decoration: underline;
+  }

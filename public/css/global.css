@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+:root {
+  --cinza: #455a64;
+  --branco: #fff;
+  --verde: #066d06;
+  --preto: #000;
+  --cinza-escuro: #1a1a1a;
+  --amarelo: #ffc107;
+  --cor_terciaria: var(--branco);
+  --cor_principal: var(--amarelo);
+  --cor_secundaria: var(--cinza-escuro);
+  --fonte_primaria: var(--fonte4);
+  --fonte_secundaria: "Poppins", sans-serif;
+  --fonte_terciaria: "Montserrat", sans-serif;
+  --fonte4 : "times new roman";
+  --fonte5 : "arial", sans-serif;
+  --header-height: 80px;
+}
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* Removido border global para evitar poluição visual */ 
+   /* border: #000 solid 1px;  */
+}
+body {
+  background-color: var(--cor_principal) !important;
+}
+
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  height: 100vh; /* Altura da tela inteira */
+}
+
+body {
+  font-family: var(--fonte_secundaria);
+  /* font-size: 1rem; */
+  background-color: var(--cor_principal);
+ 
+}
+
+header {
+  background-color: var(--cor_secundaria);
+  
+  min-height: var(--header-height);
+}
+
+.bloco-amarelo {
+  
+  padding: 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0px;
+  top: 0;
+  gap: 1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: var(--cor_principal);
+  font-family: var(--fonte_secundaria);
+  transition: color 0.3s;
+}
+
+.nav-links:hover {
+  color: var(--cor_terciaria);
+}
+
+.logo_simbolo {
+  width: 150px;
+  height: 150px;
+}
+
+#axis img {
+  width: 220px;
+  height: auto;
+  /* fixa a imagem ao centro */
+  margin: 0 auto;
+  /* remove o padding */
+  padding: 0;
+  /* remove a borda */
+  border: none;
+  /* remove a margem */
+
+}
+
+@media (max-width: 900px) {
+  .bloco-amarelo {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .nav {
+    gap: 1rem;
+  }
+  .logo_simbolo, #axis img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bloco-amarelo {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.5rem 0.2rem;
+  }
+  .nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .logo_simbolo, #axis img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
